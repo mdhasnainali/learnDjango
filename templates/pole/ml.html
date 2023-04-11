@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'style.css' %}"/>
+    <title>Hello</title>
+</head>
+<body>
+    <h1>Machine Learning, {{ hello | upper }}</h1>
+
+   {% if a == 10 %}
+        <h1>Hello</h1>
+    {% endif %}
+</body>
+</html>
